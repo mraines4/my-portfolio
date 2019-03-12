@@ -7,7 +7,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   box-shadow: 3px 3px 3px gray;
-  background: rgba(25, 12, 169, 0.85);
+  background: rgba(37, 155, 13, 0.85);
   color: ghostwhite;
 }
 /* line 20, ../partials/styles.scss */
@@ -37,8 +37,11 @@
 
 /* line 62, ../partials/styles.scss */
 #Top {
-  background-image: url("./../img/top-pic.jpg");
-  background-size: 100% 100%;
+  background-image: url("./../img/abstract-art-background-633409.jpg");
+  /* background-size: 100% 100%; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Josefin Sans', sans-serif;
   text-shadow: 2px -2px 4px gray;
   padding-top: 70px;
