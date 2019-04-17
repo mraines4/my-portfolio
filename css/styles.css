@@ -75,23 +75,25 @@
 #About h1 {
   padding-bottom: 5px;
   padding-top: 30px;
+  padding-left: 30px;
   font-size: 30px;
 }
 /* line 105, ../partials/styles.scss */
 #About p {
+  padding-left: 30px;
   font-size: 20px;
   line-height: 25px;
 }
 
 /* line 111, ../partials/styles.scss */
 #my-photo {
-  padding-top: 30px;
+  padding-top: 60px;
   font-family: "PT Sans", Serif, sans-serif;
   font-style: italic;
 }
 /* line 112, ../partials/styles.scss */
 #my-photo img {
-  width: 40%;
+  width: 45%;
   border-radius: 50%;
 }
 /* line 120, ../partials/styles.scss */

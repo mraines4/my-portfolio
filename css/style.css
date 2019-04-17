@@ -80,7 +80,6 @@ Main Components
 .projects-container .cd-single-project::before {
   /* never visible - this is used in jQuery to detect if the background image has been loaded  */
   content: '../img/flappy.png';
-  display: none;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
   top: 25vh;
@@ -89,25 +88,25 @@ Main Components
   background-image: url("../img/rough-draft.png");
 }
 .projects-container .cd-single-project:nth-of-type(2)::before {
-  content: 'img/rough-draft.png';
+  /* content: 'img/rough-draft.png'; */
 }
 .projects-container .cd-single-project:nth-of-type(3) {
   top: 50vh;
 }
 .projects-container .cd-single-project:nth-of-type(3)::after {
-  background-image: url("../img/switch2.jpg");
+  background-image: url("../img/earbuds.png");
 }
 .projects-container .cd-single-project:nth-of-type(3)::before {
-  content: 'img/img-3-small.jpg';
+  /* content: 'img/img-3-small.jpg'; */
 }
 .projects-container .cd-single-project:nth-of-type(4) {
   top: 75vh;
 }
 .projects-container .cd-single-project:nth-of-type(4)::after {
-  background-image: url("../img/wooden-connect-4.jpg");
+  background-image: url("../img/coming-soon.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(4)::before {
-  content: 'img/wooden-connect-4.jpg';
+  /* content: 'img/wooden-connect-4.jpg'; */
 }
 .projects-container .cd-single-project.is-loaded {
   /* move items in the viewport when background images have been loaded */
@@ -172,17 +171,17 @@ Main Components
     content: 'img/img-3-large.jpg';
   }
   .projects-container .cd-single-project:nth-of-type(3)::after {
-    background-image: url("../img/switch2.jpg");
+    background-image: url("../img/earbuds.png");
   }
   .projects-container .cd-single-project:nth-of-type(4) {
     top: 0;
-    left: 75vw;
+    left:75vw;
   }
   .projects-container .cd-single-project:nth-of-type(4)::before {
-    content: 'img/wooden-connect-4.jpg';
+    content: 'img/coming-soon.jpg';
   }
   .projects-container .cd-single-project:nth-of-type(4)::after {
-    background-image: url("../img/wooden-connect-4.jpg");
+    background-image: url("../img/coming-soon.jpg");
   }
   .projects-container .cd-single-project::after {
     height: 100vh;
