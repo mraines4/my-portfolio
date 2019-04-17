@@ -241,6 +241,7 @@ Main Components
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+  color:  ghostwhite;
 }
 .is-full-width .cd-title {
   top: 50vh;
@@ -249,7 +250,8 @@ Main Components
   transition: opacity 0s, top 0.4s;
 }
 .cd-title > * {
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  /* text-shadow: 0 1px 6px ghostwhite; */
+  text-shadow:1px 1px rgba(37, 155, 13, 0.85);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -265,7 +267,7 @@ Main Components
   line-height: 1.2;
   padding: .4em 2em;
   display: none;
-  opacity: .6;
+  /* opacity: .6; */
 }
 @media only screen and (min-width: 1024px) {
   .cd-title {
