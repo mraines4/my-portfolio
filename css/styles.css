@@ -136,10 +136,13 @@
   /* line 160, ../partials/styles.scss */
   #About h1 {
     font-size: 24px;
+    padding-left: 0;
   }
   /* line 163, ../partials/styles.scss */
   #About p {
     font-size: 18px;
+    padding-left: 0;
+
   }
 
   /* line 169, ../partials/styles.scss */
