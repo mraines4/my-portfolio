@@ -48,7 +48,7 @@ Main Components
   top: 0;
   left: 0;
   width: 100%;
-  height: 33.3%;
+  height: 33.333%;
   overflow: hidden;
   cursor: pointer;
   -webkit-transition: -webkit-transform 0.4s;
@@ -67,7 +67,7 @@ Main Components
   position: absolute;
   top: 0;
   left: 0;
-  height: 33vh;
+  height: 33.333vh;
   width: 100%;
   background-image: url("../img/flappy.png");
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ Main Components
   content: '../img/flappy.png';
 }
 .projects-container .cd-single-project:nth-of-type(2) {
-  top: 33vh;
+  top: 33.333vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
   background-image: url("../img/rough-draft.png");
@@ -233,7 +233,7 @@ Main Components
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 12.5vh;
+  top: 16.5vh;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
