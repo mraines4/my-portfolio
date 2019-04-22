@@ -221,7 +221,7 @@
 /* line 244, ../partials/styles.scss */
 .Recent-Projects {
   overflow: visible;
-  height: 24px;
+  /* height: 24px; */
   background: linear-gradient(ghostwhite, grey);
   font-style: italic;
   width: 100vw;
